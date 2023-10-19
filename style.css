@@ -91,13 +91,33 @@ body{
     margin-top:100px;
     font-size:55px;
     margin-bottom:10px;
-    color: rgb(195, 85, 26);
+    color: rgb(39, 191, 218);
     text-align: center;
   }
   
   #showcase p{
     font-size:40px;
-    color: rgb(16, 232, 56);
+    color: rgb(51, 15, 140);
+    text-align: center;
+  }
+
+  #Welcome img {
+    width:80%;
+    margin-left: 10%;
+    overflow:visible;
+  }
+
+  #Welcome h2 {
+    margin-top:100px;
+    font-size:55px;
+    margin-bottom:10px;
+    color: rgb(212, 234, 238);
+    text-align: center;
+  }
+
+  #welcome p {
+    font-size:40px;
+    color: rgb(129, 192, 11);
     text-align: center;
   }
   
@@ -152,13 +172,13 @@ body{
     margin-top:100px;
     font-size:55px;
     margin-bottom:10px;
-    color: rgb(195, 85, 26);
+    color: rgb(210, 200, 195);
     text-align: center;
   }
   
   #Testimonies p{
     font-size:35px;
-    color: rgb(14, 236, 55);
+    color: rgb(9, 20, 119);
     text-align: center;
   }
 
