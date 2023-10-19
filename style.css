@@ -1,0 +1,295 @@
+body{
+    font: 15px/1.5 Arial, Helvetica, sans-serif;
+    padding:0;
+    margin:auto;
+    background-color:#eff2f2;
+  }
+  
+  /* Global */
+  .container{
+    width:80%;
+    margin:auto;
+    overflow:hidden;
+  }
+  
+  ul{ 
+    margin:0;
+    padding:0;
+  }
+  
+  .button_1{
+    height:38px;
+    background:#e8491d;
+    border:0;
+    padding-left: 20px;
+    padding-right:20px;
+    color:#ffffff;
+  }
+  
+  .dark{
+    padding:15px;
+    background:#35424a;
+    color:#ffffff;
+    margin-top:10px;
+    margin-bottom:10px;
+  }
+  
+  /* Header **/
+  header{
+    background:#35424a;
+    color:#ffffff;
+    padding-top:30px;
+    min-height:70px;
+    border-bottom:#e8491d 3px solid;
+  }
+  
+  header a{
+    color:#ffffff;
+    text-decoration:none;
+    text-transform: uppercase;
+    font-size:16px;
+  }
+  
+  header li{
+    float:left;
+    display: inline;
+    padding: 0 20px 0 20px;
+  }
+  
+  header #branding{
+    float:left;
+  }
+  
+  header #branding h1{
+    margin:0;
+  }
+  
+  header nav{
+    float:right;
+    margin-top:10px;
+  }
+  
+  header .highlight, header .current a{
+    color:#e8491d;
+    font-weight:bold;
+  }
+  
+  header a:hover{
+    color:#cccccc;
+    font-weight:bold;
+  }
+  
+  /* Showcase */
+  #showcase{
+    min-height:400px;
+    background:url('./writingpic.jpg') no-repeat;
+    background-position:center;
+    background-size: cover;
+  }
+  
+  #showcase h1 {
+    margin-top:100px;
+    font-size:55px;
+    margin-bottom:10px;
+    color: rgb(195, 85, 26);
+    text-align: center;
+  }
+  
+  #showcase p{
+    font-size:40px;
+    color: rgb(16, 232, 56);
+    text-align: center;
+  }
+  
+  /* Newsletter */
+  #newsletter{
+    padding:15px;
+    color:#ffffff;
+    background:#35424a
+  }
+  
+  #newsletter h1{
+    float:left;
+  }
+  
+  #newsletter form {
+    float:right;
+    margin-top:15px;
+  }
+  
+  #newsletter input[type="email"]{
+    padding:4px;
+    height:25px;
+    width:250px;
+  }
+  
+  /* Boxes */
+  #boxes{
+    margin-top:20px;
+  }
+  
+  #boxes .box{
+    float:none;
+    text-align: center;
+    width:100%;
+    padding:10px;
+  }
+  
+  #boxes .box img{
+    width:350px;
+    height: 250px;
+  }
+
+  /* Testimonies */
+  #Testimonies{
+    min-height:400px;
+    background:url('./students.png') no-repeat;
+    background-position:center;
+    background-size: cover;
+  }
+  
+  #Testimonies h1{
+    margin-top:100px;
+    font-size:55px;
+    margin-bottom:10px;
+    color: rgb(195, 85, 26);
+    text-align: center;
+  }
+  
+  #Testimonies p{
+    font-size:35px;
+    color: rgb(14, 236, 55);
+    text-align: center;
+  }
+
+  /* Testimonies */
+  #Testimonies{
+    margin-top:20px;
+  }
+  
+  #Testimonies .Testimony{
+    float:none;
+    text-align: center;
+    width:100%;
+    padding:10px;
+  }
+  
+  #Testimonies .Testimony img{
+    width:350px;
+    height: 250px;
+  }
+  
+  /* Sidebar */
+  aside#sidebar{
+    float: left;
+    width:30%;
+    margin-top:10px;
+  }
+  
+  aside#sidebar .quote input, aside#sidebar .quote textarea{
+    width:90%;
+    padding:5px;
+  }
+  
+  /* Main-col */
+  article#main-col{
+    float:right;
+    width:65%;
+  }
+  
+  /* Services */
+  ul#services li{
+    list-style: none;
+    padding:20px;
+    border: #cccccc solid 1px;
+    margin-bottom:5px;
+    background:#e6e6e6;
+  }
+  
+  footer{
+    padding:20px;
+    margin-top:20px;
+    color:#ffffff;
+    background-color:#e8491d;
+    text-align: center;
+  }
+  
+  /* Media Queries */
+  @media(max-width: 768px){
+    header #branding,
+    header nav,
+    header nav li,
+    #newsletter h1,
+    #newsletter form,
+    #Developer img,
+    #boxes .box,
+    article#main-col,
+
+    aside#sidebar{
+      float:bottom;
+      width:100%;
+    }
+  
+    header{
+      padding-bottom:20px;
+    }
+  
+    #showcase h1, h4 {
+      margin-top:40px;
+      color: black;
+    }
+
+    #Testimonies h3, p{
+      margin-top:40px;
+      color: red;
+  
+    #newsletter button, .quote button{
+      display:block;
+      width:100%;
+    }
+  
+    #newsletter form input[type="email"], .quote input, .quote textarea{
+      width:100%;
+      margin-bottom:5px;
+    }
+  }
+
+  #Blogpost .Blog{
+    float:left;
+    width:100%;
+    padding:0%;
+  }
+
+  .Blog img {
+    width:100%;
+    padding:0%;
+    
+  }
+    }
+
+    #Developer {
+      width: 150px;
+      height: 100px;
+      margin-top: 20px;
+      margin-right: 20px;
+      margin-right: 20px;
+      margin-bottom: 20%;
+    }
+
+  #Developer img{
+    float: left;
+    width:30%;
+    margin-top:10px;
+  }
+
+  #Developer td h4, td h2 {
+    font-size: larger;
+    width: max-content;
+  }
+  
+  #Welcome h1, h2{
+    text-align: center;
+    color: #e8491d;
+    display: grid;
+  }
+  
